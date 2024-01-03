@@ -81,7 +81,7 @@ switch (true) {
 // Activity Seven
 ///
 
-let funnyString = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwsh".split("").reverse().join("");
+let funnyString = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi".split("").reverse().join("");
 
 let lastIndex = -1;
 let lastLetter = "";
