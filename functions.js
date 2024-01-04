@@ -51,7 +51,7 @@ print(`There are currently ${orderCount} orders queued up.\n`);
 // Activity Three
 ///
 
-let myPin = "0421";
+let myPin = "0451";
 let myBalance = 599.06;
 // The options correspond to the different buttons the user could press.
 let options = [5, 10, 20, 50, 100, 500]; 
@@ -80,8 +80,8 @@ const withdraw = (pin, button) => {
 }
 
 withdraw("0411", 3);
-withdraw("0421", 3);
-withdraw("0421", 7);
-withdraw("0421", 5);
-withdraw("0421", 5);
-withdraw("0421", 2);
+withdraw("0451", 3);
+withdraw("0451", 7);
+withdraw("0451", 5);
+withdraw("0451", 5);
+withdraw("0451", 2);
