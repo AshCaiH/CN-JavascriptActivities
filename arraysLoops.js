@@ -33,21 +33,21 @@ print( numberList.map(Math.floor), "\n" );
 let favFilms = ["Toy Story", "Terminator 2", "Spiderverse"];
 favFilms.push("Aladdin", "Grand Budapest Hotel");
 for (film of favFilms) print(film);
-print();
+print("");
 
 ///
 // Loops - Activity Two
 ///
 
 for (i=0; i < 6; i++) print(Math.ceil(Math.random()*50));
-print();
+print("");
 
 ///
 // Loops - Activity Three
 ///
 
 for (i = 9; i>=0; i--) print(i);
-print();
+print("");
 
 ///
 // Loops - Activity Four
@@ -55,7 +55,7 @@ print();
 
 if (favFilms[2] == "Ghostbusters") print("Ghostbusters is in third place.");
 else print("The third film is not Ghostbusters.");
-print();
+print("");
 
 ///
 // Loops - Activity Five
@@ -66,7 +66,7 @@ for (i=0; i<6; i++) {
     if (randNum % 7 == 0) print(`${randNum} is divisible by 7`);
     else print(`${randNum} is NOT divisible by 7`);
 }
-print();
+print("");
 
 ///
 // Loops - Activity Six
@@ -80,7 +80,7 @@ for (bobFollower of bobsFollowers) {
         if (bobFollower == hanFollower) print(bobFollower, "follows Bob and Hannah");
     }
 }
-print();
+print("");
 
 ///
 // Loops - Activity Seven
@@ -91,16 +91,16 @@ print();
 // and incrementing by two after each step.
 
 for (i=0; i < 10; i+=2) print(i);
-print();
+print("");
 
 // A For loop can also be run over an array, for example "for (item in list)" or "for (item of list)". 
 // "in" returns the position of each item, and "of" returns the item itself.
 
 let list = ["a", "b", "c"]
 for (position in list) print(position);
-print();
+print("");
 for (item of list) print(item);
-print();
+print("");
 
 // A While Loop will normally run until the condition in its constructor is NOT met.
 
@@ -109,7 +109,7 @@ while (value < 3) {
     value++;
     print(value);
 }
-print();
+print("");
 
 // A Do While Loop works similarly to a while loop, except it will always run at least once.
 
