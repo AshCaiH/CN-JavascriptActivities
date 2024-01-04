@@ -46,7 +46,7 @@ else console.log(`${num} is NOT divisible by 3 or 5\n`);
 ///
 
 fizzbuzz = "";
-if (num % 3 == 0) fizzbuzz += "fizz";
+if (num % 3 == 0) fizzbuzz += "fizz ";
 if (num % 5 == 0) fizzbuzz += "buzz";
 if (fizzbuzz.length > 0) console.log(fizzbuzz, "\n");
 else console.log(num, "\n");
