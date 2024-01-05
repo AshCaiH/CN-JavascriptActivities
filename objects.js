@@ -12,6 +12,7 @@ const person = {
     ],
     sayHi() { return `Hello! My name is ${this.name}` }
 }
+print(person.sayHi());
 print(person.favSongs, "\n");
 
 ///
