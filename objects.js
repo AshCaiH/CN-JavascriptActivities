@@ -57,7 +57,8 @@ const coffeeShop = {
         matchaLatte: 2.95,
         tea: 2.40,
         water: 0.40,
-        cola: 1.30
+        cola: 1.30,
+        coffee: 2.50
     },
     food: {
         cheeseToastie: 2.95,
