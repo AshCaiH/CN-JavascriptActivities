@@ -76,7 +76,7 @@ const coffeeShop = {
         let total = 0;
         for (let item of items) {
             // Make sure the option actually exists before adding its price.
-            if (typeof(menu[item]) == "number") total += menu[item]; // VS Code autocomplete seems to hate this, but it works?
+            if (typeof(menu[item]) == "number") total += menu[item];
             else print(`"${item}" is not on the ${type} menu.`)
         }
         return total;
