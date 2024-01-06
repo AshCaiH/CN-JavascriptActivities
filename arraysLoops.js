@@ -72,14 +72,20 @@ print("");
 // Loops - Activity Six
 ///
 
-bobsFollowers = ["Alice", "Tony", "Frank", "Jess"];
-hannahsFollowers = ["Bob", "Alice", "Tony", "Malcolm"];
+let bobFollowers = ["Alice", "Tony", "Frank", "Jess"];
+let hannahFollowers = ["Bob", "Alice", "Tony", "Malcolm"];
+let sharedFollowers = [];
 
-for (bobFollower of bobsFollowers) {
-    for (hanFollower of hannahsFollowers) {
-        if (bobFollower == hanFollower) print(bobFollower, "follows Bob and Hannah");
+for (let bobFollower of bobFollowers) {
+    for (let hannahFollower of hannahFollowers) {
+        if (bobFollower == hannahFollower) sharedFollowers.push(bobFollower);
     }
 }
+
+// Change the string depending on whether or not there is one follower.
+let pluralString = sharedFollowers.length == 1 ? "follower is" : "followers are";
+
+print("Bob and Hannah's mutual", pluralString, sharedFollowers.join(", "));
 print("");
 
 ///
